@@ -1,0 +1,20 @@
+{
+  "name": "fintech-contact-inbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/contact_inbox.ts",
+    "demo": "tsx scripts/submit_contact.ts",
+    "test": "tsx --test test/contact_routing.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
